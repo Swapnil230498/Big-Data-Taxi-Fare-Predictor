@@ -2,7 +2,7 @@
 
 # Description:
 
-The "Big Data Taxi Fare Predictor" is a data science project aimed at predicting taxi fares using a large-scale dataset consisting of 8.4 crore rows and 18 columns. The first step of the project involved converting the massive 12GB SQLite file into an HDF5 file format using the efficient Vaex library. This conversion allowed for easier data loading and handling, significantly speeding up the overall data processing.
+The "Big Data Taxi Fare Predictor" is a data science project aimed at predicting taxi fares using a large-scale dataset consisting of 8.4 crore rows and 18 columns. The first step of the project involved converting the massive 16GB SQLite file into an HDF5 file format using the efficient Vaex library. This conversion allowed for easier data loading and handling, significantly speeding up the overall data processing.
 
 After loading the data into a Vaex dataframe, thorough preprocessing was performed. This included removing unnecessary columns, detecting and addressing NaN values in each column, and identifying and handling outliers to reveal the underlying patterns between the features and the target variable (fare_amount). Notably, a linear relationship was discovered between certain features and the target.
 
